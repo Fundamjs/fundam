@@ -1,0 +1,21 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "0.1.0",
+  "command": {
+    "version": {
+      "exact": true,
+      "message": "chore(release): publish %s"
+    },
+    "publish": {
+      "registry": "https://registry.npmjs.org",
+      "message": "chore(release): publish %s",
+      "ignoreChanges": [
+        "*.md"
+      ]
+    }
+  }
+}
