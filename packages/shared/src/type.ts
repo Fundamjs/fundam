@@ -102,12 +102,4 @@ export interface JsonSchema {
   }
   // 生命周期
   ['x-component-lifecycle']?: Lifecycle
-
-  // workspace相关属性
-  // 用于workspace定位组件
-  $viewComponent?: string
-  // editor 专用字段、dropSection不允许drop
-  $static?: boolean
-  // editor 专用字段、不能拖拽
-  $draggable?: boolean
 }

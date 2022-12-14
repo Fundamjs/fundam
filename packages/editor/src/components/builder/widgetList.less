@@ -1,0 +1,33 @@
+.widget-list {
+  width: 254px;
+  min-width: 254px;
+  max-width: 254px;
+  padding: 0 8px 8px 8px;
+}
+.title {
+  width: 100%;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+.list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.widget-list-item {
+  max-width: 112px;
+  border: 1px solid #e5e6e8;
+  border-radius: 4px;
+  cursor: pointer;
+  flex-basis: 112px;
+  font-size: 12px;
+  margin-top: 8px;
+  padding: 4px 8px;
+  &:nth-child(2n - 1) {
+    margin-right: 8px;
+  }
+}

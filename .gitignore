@@ -22,3 +22,5 @@ doc-site
 .umi
 .umi-production
 *.lock
+.docz
+.dumi
